@@ -1,0 +1,146 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		
+	}
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	body {
+		line-height: 1;
+	}
+
+	ol, ul {
+		list-style: none;
+	}
+
+	blockquote, q {
+		quotes: none;
+	}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	.home {
+		width: 100%;
+		height:800px;
+		float:left;
+		background-image:url("../images/pichome.jpg")
+	}
+
+	.small{
+		width:40%;
+		position: relative; 
+				float: left;
+		height:266px;
+   }
+   .major { 
+   position: absolute; 
+   top: 140px;  
+   width: 100%; 
+}
+	.large{
+		width:60%;
+		position: relative;
+				float: left;
+		height:266px;
+	}
+	.major .link{
+	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 1.04;
+    letter-spacing: -.028em;
+    border-bottom: solid 1px #C7C7C7;
+    color: rgba(0,0,0,.8);
+    
+	}
+	.major{
+		 margin: 20px 0px 20px 20px;
+	}
+	.major p {
+		font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+		text-transform: uppercase;
+		font-size:15px;
+		padding-bottom: 20px;
+
+	}
+	.image {
+		background-color: #3B8686;
+	}
+	.image01:hover {
+		background-image:url("../images/pic01.jpg");
+	}
+    .inner{
+    	color:white;
+    	text-align: center;
+
+    }
+    .content{
+    	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+    	padding-top:350px;
+    	font-size:30px;
+    }
+
+	.arrow {
+	padding-top:250px;
+
+	}
+
+
+	.image01 {
+
+
+	background-color: #3B8686;
+	}
+	.image01:hover {
+
+		background-image:url("../images/pic01.jpg");
+
+	}
+
+	.image02 {
+	background-color: #95C3E5;
+	}
+	.image02:hover {
+		background-image:url("../images/pic02.jpg");
+		}
+
+	.image03 {
+	background-color: #2A597B;
+	}
+	.image03:hover {
+		background-image:url("../images/pic03.jpg");
+		}
+
+	.image04 {
+	background-color: #458C8B;
+	}
+	.image04:hover {
+		background-image:url("../images/pic04.jpg");
+		}
+
+	.image05 {
+	background-color: #529B9E;
+	}
+	.image05:hover {
+		background-image:url("../images/pic05.jpg");
+		}
+
+	.image06 {
+	background-color: #123849;
+	}
+	.image06:hover {
+		background-image:url("../images/pic06.jpg");
+		}
