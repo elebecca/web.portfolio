@@ -97,49 +97,51 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	padding-top:250px;
 
 	}
+	.arrow-portfolio {
+	padding-left:250px;
+
+	}
 
 
 	.image01 {
 
 
-	background-color: #3B8686;
+	background-color: #628179;
 	}
 	.image01:hover {
-
 		background-image:url("../images/pic01.jpg");
-
 	}
 
 	.image02 {
-	background-color: #95C3E5;
+	background-color: #5A88A2;
 	}
 	.image02:hover {
 		background-image:url("../images/pic02.jpg");
 		}
 
 	.image03 {
-	background-color: #2A597B;
+	background-color: #333C3B;
 	}
 	.image03:hover {
 		background-image:url("../images/pic03.jpg");
 		}
 
 	.image04 {
-	background-color: #458C8B;
+	background-color: #3D5C6E;
 	}
 	.image04:hover {
 		background-image:url("../images/pic04.jpg");
 		}
 
 	.image05 {
-	background-color: #529B9E;
+	background-color: #3A4C6F;
 	}
 	.image05:hover {
 		background-image:url("../images/pic05.jpg");
 		}
 
 	.image06 {
-	background-color: #123849;
+	background-color: #2C3845;
 	}
 	.image06:hover {
 		background-image:url("../images/pic06.jpg");
