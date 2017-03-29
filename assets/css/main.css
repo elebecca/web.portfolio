@@ -40,21 +40,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		background-image:url("../images/pichome.jpg")
 	}
 
-	.small{
+.small{
 		width:40%;
 		position: relative; 
 				float: left;
 		height:266px;
    }
-   .major { 
+.major { 
    position: absolute; 
    top: 140px;  
    width: 100%; 
 }
-	.large{
+.large{
 		width:60%;
 		position: relative;
-				float: left;
+		float: left;
 		height:266px;
 	}
 	.major .link{
@@ -63,8 +63,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 50px;
     line-height: 1.04;
     letter-spacing: -.028em;
-    border-bottom: solid 1px #C7C7C7;
     color: rgba(0,0,0,.8);
+     text-decoration:none;
     
 	}
 	.major{
@@ -118,58 +118,141 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		background-image:url("../images/pic02.jpg");
 		}
 
-	.image03 {
+.image03 {
 	background-color: #333C3B;
 	}
-	.image03:hover {
+.image03:hover {
 		background-image:url("../images/pic03.jpg");
 		}
 
-	.image04 {
+.image04 {
 	background-color: #3D5C6E;
 	}
-	.image04:hover {
+.image04:hover {
 		background-image:url("../images/pic04.jpg");
 		}
 
-	.image05 {
+.image05 {
 	background-color: #3A4C6F;
 	}
-	.image05:hover {
+.image05:hover {
 		background-image:url("../images/pic05.jpg");
 		}
 
-	.image06 {
+.image06 {
 	background-color: #2C3845;
 	}
-	.image06:hover {
+.image06:hover {
 		background-image:url("../images/pic06.jpg");
 		}
-	.info{
+.info{
 		box-sizing: border-box;
 		width: 100%;
 		height: 270px;
 		background-color: #333C3B;
 		float:left;
-		color:white;
-		border-bottom: 1px solid white;
+		color:#C0C0C0;
+		border-bottom: 1px solid #666666;
+		text-align: left;
+		font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+		font-size:18px;
+		padding:50px 100px 0px 100px;
+
 	}
-	.contact{
+.info h2{
+		text-transform: uppercase;
+	}
+.contact{
 		box-sizing: border-box;
 		width: 60%;
 		height: 450px;
 		background-color: #333C3B;
 		float:left;
-		color:white;
-		border-right: 1px solid white;
+		color:#C0C0C0;
+		border-right: 1px solid #666666;
+
+		padding:50px 50px 0px 100px;
 	}
-	.contact-method{
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background-color: #666666;
+    border: 2px solid #666666;
+    color: white;
+
+	}
+label{
+	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+	font-size:15px;
+	text-transform: uppercase;
+	text-align: center;
+	}
+
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #666666;
+    background-color: #666666;
+    resize: none;
+    color: white;
+    margin: 10px 0;
+	}
+
+.contact-method{
 		box-sizing: border-box;
 		width: 40%;
 		height: 150px;
 		background-color: #333C3B;
 		float:left;
-		color:white;
-		border-bottom: 1px solid white;
-
+		border-bottom: 1px solid #666666;	
 	}
+
+.icon {
+	display: inline;
+	padding-left:50px;
+	padding-top:50px;
+	float:left;
+	}
+.adress{
+		font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+		padding-right:100px;
+		font-size:15px;
+		float:left;
+		color:#C0C0C0;
+		padding-left:10px;
+		padding-top:50px;
+		
+	}
+.adress a{
+	text-decoration:none;
+	color: #C0C0C0;
+}
+
+.button{
+	background-color:white;
+	text-decoration:none;
+	color:#666666;
+	padding: 12px 28px;
+	text-align: right;
+	margin-top: 10px;
+	border: 1px solid #666666;
+}
+.button:hover {
+    background-color: #666666;
+    color: white;
+}
+li{
+	display: inline;
+	font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+ul {
+	margin-top: 30px;
+}
