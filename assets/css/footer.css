@@ -1,0 +1,21 @@
+
+	footer ul{
+	float:left;
+	background-color:#666666;
+	height: 70px;
+	width: 100%;
+	padding-top: 15px;
+	}
+	.icons li{
+	padding:10px 50px 10px 30px;
+	text-align: center;
+	margin-top: 10px;
+	display: inline;
+	margin:auto;
+	}
+
+	.twitter:hover{
+	background-image: url("../images/icon/twitterhover.png");
+	}
+
+
