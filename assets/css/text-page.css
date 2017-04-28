@@ -5,9 +5,13 @@
 		color: white;
 		text-align: left;
 		font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;
-		font-size:18px;
-		
-	}
+		font-size: 16px;
+    	line-height: 1.04;
+    	letter-spacing: -.028em;
+
+ 	}
+
+
 	p{
 		padding-top: 30px;
 	}
@@ -21,7 +25,10 @@
     letter-spacing: -.028em;
     color: white;
     text-decoration:none;
+
+
  }
+
    .text{
    	padding:50px 200px;
    	background-color: #333C3B;
