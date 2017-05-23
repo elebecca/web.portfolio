@@ -1,21 +1,58 @@
 
-	footer ul{
-	float:left;
-	background-color:#666666;
-	height: 70px;
-	width: 100%;
-	padding-top: 15px;
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: #666666;
+    width: 100%;
 	}
 	.icons li{
-	padding:10px 50px 10px 30px;
-	text-align: center;
 	margin-top: 10px;
-	display: inline;
-	margin:auto;
+	}
+ 	.social {
+		display: block;
+		width: 50px;
+		height: 50px;
+		border-radius: 4px;
+ 	}
+	.facebook{
+		background: url("../images/facebook.svg") #333C3B no-repeat center;
+		background-size: 30px;
+	}
+	.facebook:hover {
+    background-color: black;
 	}
 
-	.twitter:hover{
-	background-image: url("../images/icon/twitterhover.png");
+	.twitter{
+		background: url("../images/twitter.svg") #333C3B no-repeat center;
+		background-size: 30px;
 	}
+
+	.twitter:hover {
+    background-color: black;
+    }
+
+	.instagram{
+		background: url("../images/instagram.svg") #333C3B no-repeat center;
+		background-size: 30px;
+	}
+	.instagram:hover {
+    background-color: black;
+    }
+
+	.github{
+		background: url("../images/github.svg") #333C3B no-repeat center;
+		background-size: 30px;
+	}
+	.github:hover {
+    background-color: black;
+    }
+
+	.linkedin{
+		background: url("../images/linkedin.svg") #333C3B no-repeat center;
+		background-size: 30px;
+	}
+	.linkedin:hover {
+    background-color: black;
+    }
 
 
