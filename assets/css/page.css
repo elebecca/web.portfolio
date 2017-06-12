@@ -51,6 +51,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-transform: uppercase;
     }
 
+	.logo{
+		
+		display: block;
+		
+	}
+
 
     .arrowsx{
     	padding-left: 10px;
@@ -61,30 +67,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     	height: 50px;
     }
 
-	.icon-camera{
-		background: url("../images/camera.svg")  no-repeat ;
-		background-size: 30px;
-		
-		display: block;
-		float: left;
-	}
-	.icon-focal_length{
-		background: url("../images/length.svg")  no-repeat ;
-		background-size: 30px;
-	}
-	.icon-aperture{
-		background: url("../images/aperture.svg")  no-repeat ;
-		background-size: 30px;
-	}
-	.icon-exposure_time{
-		background: url("../images/exposure.svg")  no-repeat ;
-		background-size: 30px;
-	}
-	.icon-iso{
-		background: url("../images/iso.svg")  no-repeat ;
-		background-size: 30px;
-	}
 
+	
 
 
 	
@@ -125,44 +109,180 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 	}
 
-	.pictures{
-	height: 450px;
-	overflow: hidden;
-	display: block;
 
-	}
-	.picture img{	
-		width: 66%;
-		
-		position:relative;
-		
+	.pictures {			
+		width: 50%;
+		height: 500px;	
 		display:inline-block;
-		float: left;
-		background-position:center;
-		    height: auto; 
-   background-size:contain;
+		float: left;		     
+	}
+	.food01{
+		background-image: url("../images/food01.jpg");
+	}
+	.food02{
+		background-image: url("../images/food02.jpg");		
+	}
+	.food03{
+		background-image: url("../images/food03.jpg");		
+	}
+	.food04{
+		background-image: url("../images/food04.jpg");		
+	}
+	.animal01{
+		background-image: url("../images/animal01.jpg");		
+	}
+	.animal02{
+		background-image: url("../images/animal02.jpg");		
+	}
+	.face01{
+		background-image: url("../images/face01.jpg");
+	}
+	.face02{
+		background-image: url("../images/face02.jpg");		
+	}
+	.face03{
+		background-image: url("../images/face03.jpg");		
+	}
+	.face04{
+		background-image: url("../images/face04.jpg")
+	}
+	.fire01{
+		background-image: url("../images/fire01.jpg")
+	}
+	.fire02{
+		background-image: url("../images/fire02.jpg")
+	}
+	.water01{
+		background-image: url("../images/water01.jpg")
+	}
+	.water02{
+		background-image: url("../images/water02.jpg")
+	}
+	.landscape01{
+		background-image: url("../images/landscape01.jpg")
+	}
+	.landscape02{
+		background-image: url("../images/landscape02.jpg")
+	}
+	.landscape03{
+		background-image: url("../images/landscape03.jpg")
+	}
+	.landscape04{
+		background-image: url("../images/landscape04.jpg")
 	}
 
 	@media screen and (max-width: 750px) {
-    .picture img{
+    .pictures{
     	width: 100%;
     	height: 100%;
 		}
     }
+		     
 	
-	.picture-info{
-		width: 34%;
-		height: 450px;
-		background-color: #628179;
-		padding: 30px;
-		position:relative;
-		float: left;
-	}
-	@media screen and (max-width: 750px) {
     .picture-info{
-    	width: 100%;
-		}
+    	padding: 30px ;
+
+
     }
+    #food01{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #food02{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #food03{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #food04{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #animal01{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #animal02{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #face01{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+	#face02{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #face03{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #face04{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #fire01{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+	#fire02{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #water01{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #water02{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #landscape01{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+	#landscape02{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #landscape03{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+    #landscape04{
+    	color:white;
+    	font-size: 15px;
+    	font-family: arial;
+    }
+
+
+
+	
+.info-detail img{
+	width: 30px;
+	padding: 15px;
+}
+
 
     
     
